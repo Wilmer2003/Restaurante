@@ -13,8 +13,8 @@ body {
 
 
 .container{
-    mask-width: 1200px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: 0;
 }
 
 .header{
@@ -50,7 +50,7 @@ body {
     float: left;
 }
 
-.menu .navbar u1 li a{
+.menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
     font-weight: 600;
@@ -127,12 +127,12 @@ th, td{
     align-items: center;
 }
 
-.header-text {
+.header-txt {
     width: 50%;
     margin-right: 50px;
 }
 
-.header-text h1 {
+.header-txt h1 {
     font-size: 55px;
     line-height: 65px;
     color: #1D1D1B;
@@ -145,7 +145,7 @@ th, td{
     margin-bottom: 45px;
 }
 
-.header-text span {
+.header-txt span {
     color: #FFAE00;
 }
 
@@ -257,7 +257,7 @@ p {
 .box-container {
     margin-top: 55px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
     gap: 20px;
 }
 
